@@ -50,7 +50,7 @@ sh /tmp/pogofree.sh --mode plan-a --toolhead 2 --yes
 
 ## 方案 B
 
-使用官方顶盖 6Pin 接口 PCB 丝印标注的 `24V / PWM / GND`，通过外置 MOSFET 驱动共享风扇。脚本使用：
+使用官方顶盖 6Pin 接口 PCB 丝印标注的 `24V / PWM / GND`，通过外置 MOSFET 驱动共享风扇（接法在文档最后）。脚本使用：
 
 ```text
 PWM: PA8
@@ -100,3 +100,7 @@ QUERY_PARK_STA NAME=extruder3
 ```
 
 确认四个打印头换头正常、主散热风扇可调后，再开始打印测试。
+
+<p align="left">
+  <img src="images/main-ui.png" width="800">
+</p>
