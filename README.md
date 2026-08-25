@@ -102,5 +102,5 @@ QUERY_PARK_STA NAME=extruder3
 确认四个打印头换头正常、主散热风扇可调后，再开始打印测试。
 
 <p align="left">
-  <img src="images/main-ui.png" width="800">
+  <img src="images/screenshot.jpg" width="800">
 </p>
